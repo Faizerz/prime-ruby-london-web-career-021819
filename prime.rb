@@ -3,6 +3,7 @@ def prime?(n)
   ary.each do |x|
     result = n%x
     result != 0
+      
   end
 end
   
