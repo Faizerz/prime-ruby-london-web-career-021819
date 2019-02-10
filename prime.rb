@@ -3,9 +3,9 @@ def prime?(n)
     return FALSE
   else  
     Array(2..n-1).each do |x|
-     if n % x != 0
-       return TRUE
-     else FALSE
+       if n % x != 0
+         return TRUE
+       else FALSE
      end
     end
   end  
