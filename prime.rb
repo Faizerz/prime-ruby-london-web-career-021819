@@ -6,6 +6,5 @@ def prime?(n)
     ary.each do |x|
       n%x != 0 ? true:false
     end
-    
 end
   
