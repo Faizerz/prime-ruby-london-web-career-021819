@@ -3,7 +3,7 @@ def prime?(n)
     return false
   else  
 
-    Array(2..(n-1)).each do |x|
+    Array(2..(n-1)).all do |x|
       n % x != 0
     end
 end
