@@ -3,7 +3,10 @@ def prime?(n)
     return false
   else
     (2..n-1).to_a.each do |x|
-    n % x != 0 ? TRUE : FALSE
+    if n % x != 0 
+      return TRUE
+    else
+      return FALSE
     end
   end
 end
