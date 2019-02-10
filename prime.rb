@@ -1,13 +1,9 @@
-def prime?(n)
-  if n<0 || n==1 || n==0
-    return FALSE
-  else  
-    Array(2..n-1).each do |x|
-       if n % x != 0
-         return TRUE
-       else FALSE
-     end
+def prime?(num)
+  if num < 0 or num == 0 or num == 1
+    return false
+  else
+    (2..num-1).to_a.all? do |possible_factor|
+      num % possible_factor != 0
     end
-  end  
+  end
 end
-  
