@@ -4,7 +4,7 @@ def prime?(n)
   else  
 
     Array(2..(n-1)).each do |x|
-      n%x != 0 ? true:false
+      n % x != 0
     end
 end
   
