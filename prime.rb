@@ -5,7 +5,7 @@ def prime?(n)
 # Loops through each and divides n by each
   ary.each do |x|
     result = n/|x|
-# If % true then not-prime else is prime
-  if result 
+# If integer then not prime
+  result.is_a? Integer
 end
   
