@@ -5,8 +5,7 @@ def prime?(n)
 
   ary.each do |x|
     result = n/|x|
-
-  result.is_a? Integer
-end
+    result.is_a? Integer
+  end
 end
   
