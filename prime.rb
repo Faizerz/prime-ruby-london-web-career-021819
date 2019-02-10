@@ -1,9 +1,7 @@
 def prime?(n)
  ary = Array(2..(n-1));
   ary.each do |x|
-    result = n%x
-    result != 0 ? true:false
-      
+    n%x != 0 ? true:false
   end
 end
   
