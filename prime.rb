@@ -4,8 +4,8 @@ def prime?(n)
   else
     (2..n-1).to_a.each do |x|
     if n % x != 0 
-      return TRUE
+      return true
     else
-      return FALSE
+      return false
   end
 end
